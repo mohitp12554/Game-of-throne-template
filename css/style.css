@@ -1,0 +1,152 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}	
+header{
+	background-image: url(../bg-got-1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	margin-right: 15px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+
+.main{
+	max-width: 1400px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);	
+}
+
+.title h1{
+	color; #fff;
+	font-size: 60px;
+}
+
+.button{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);	
+}
+.btn{
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	padding: 10px 50px;
+	border: 1px solid 10px;
+	transition: 0.4s ease;	
+}
+
+.button discover_more{
+}
+
+.btn:hover{
+	background-color: white;
+	color: #000;
+}
+.heading{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);	
+}
+.heading h2{
+	color; #fff;
+	font-size: 50px;
+}
+
+section {
+	background-image: url(../bg-1.svg);
+	height: 90vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.circular-img-1{
+	position: absolute;
+	top: 125%;
+	left: 35%;
+	transform: translate(-125%,-35%);
+	border-top-left-radius: 40% 40%;
+	border-top-right-radius: 40% 40%;
+	border-bottom-right-radius: 40% 40%;
+	border-bottom-left-radius: 40% 40%;
+	border: 2px solid black;
+}
+.right-text{
+	position: absolute;
+	top: 135%;
+	left: 75%;
+	transform: translate(-135%,-75%);
+	
+}
+
+.right-text table, td {
+  border: 5px solid blue;
+  border-collapse: collapse;
+}
+.right-text th, td {
+border: 5px double blue;
+  padding: 10px;
+  text-align: left;
+}
+
+.text-right-side{
+	position: absolute;
+	top: 165%;
+	left: 75%;
+	transform: translate(-135%,-50%);
+	text-align: center;	
+	width: 400px;
+	border: 3px double #73AD21;
+	padding: 10px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 10px;
+  border-radius: 40%;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
